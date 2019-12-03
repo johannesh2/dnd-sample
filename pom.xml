@@ -34,7 +34,24 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>Vaadin pre-release repository</id>
+            <url>http://maven.vaadin.com/vaadin-prereleases/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
     </repositories>
+    
+    <pluginRepositories>
+        <pluginRepository>
+            <id>Vaadin pre-release repository</id>
+            <url>http://maven.vaadin.com/vaadin-prereleases/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 
     <dependencyManagement>
         <dependencies>
