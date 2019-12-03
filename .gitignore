@@ -1,1 +1,5 @@
 node_modules
+.classpath
+.settings
+.project
+target
