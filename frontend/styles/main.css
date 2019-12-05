@@ -8,6 +8,10 @@
 	align-items: center;
 }
 
+.wrapper label {
+	font-size: var(--lumo-font-size-l);
+}
+
 .column {
 	justify-content: center;
 	align-items: center;
